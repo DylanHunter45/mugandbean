@@ -1,0 +1,36 @@
+.coffie-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+  width: 100%;
+  padding: 20px;
+}
+.coffee-home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.floating-btn {
+  position: fixed;
+  bottom: 72px;
+  right: 20px;
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+  font-size: 30px;
+  width: 60px;
+  height: 70px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  line-height: 0;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  z-index: 999;
+}
+.floating-btn:hover {
+  color: #ffffff;
+  background-color: #000000;
+}
